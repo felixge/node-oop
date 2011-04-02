@@ -1,7 +1,7 @@
 {
   "name": "oop",
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
-  "description": "A little helper common OOP patterns",
+  "description": "Simple & light-weight oop.",
   "version": "0.0.2",
   "main": "./node_modules/oop/index.js",
   "engines": {
