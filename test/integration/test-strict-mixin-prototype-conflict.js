@@ -1,4 +1,5 @@
-var oop = require('oop');
+var common = require('../common');
+var oop = common.oop;
 var assert = require('assert');
 
 function A() {}
