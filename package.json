@@ -1,0 +1,8 @@
+{
+  "name" : "oop",
+  "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "description": "A little helper common OOP patterns",
+  "version": "0.0.1",
+  "main" : "./node_modules/oop/index.js",
+  "engines": {"node": ">=0.4.0"}
+}
