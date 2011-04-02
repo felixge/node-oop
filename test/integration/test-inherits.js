@@ -15,12 +15,20 @@ oop.extend(B, A);
 
 B.methodB = function() {};
 
-var b = new B();
-assert.ok(b instanceof B);
-assert.ok(b instanceof A);
+function C() {
+  B.call(this);
+}
+oop.extend(C, B);
 
-assert.ok(b.a);
-assert.ok(b.b);
+var c = new C();
+assert.ok(c instanceof C);
+assert.ok(c instanceof B);
+assert.ok(c instanceof A);
 
-B.methodA();
-B.methodB();
+assert.ok(c.a);
+assert.ok(c.b);
+
+C.methodA();
+C.methodB();
+
+assert.strictEqual(c.constructor, C);
