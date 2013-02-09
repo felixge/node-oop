@@ -3,6 +3,7 @@
   "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
   "description": "Simple & light-weight oop.",
   "version": "0.0.3",
+  "license": "MIT",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=0.4.0"
